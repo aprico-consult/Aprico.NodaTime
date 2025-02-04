@@ -1,11 +1,9 @@
 <!-- see https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management -->
 <Project>
-
    <PropertyGroup>
       <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
       <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
    </PropertyGroup>
-
    <ItemGroup>
       <PackageVersion Include="Aprico.Unit" Version="1.0.0"/>
       <PackageVersion Include="coverlet.collector" Version="6.0.4"/>
@@ -18,5 +16,4 @@
       <PackageVersion Include="xunit.analyzers" Version="1.19.0"/>
       <PackageVersion Include="xunit.runner.visualstudio" Version="3.0.1"/>
    </ItemGroup>
-
 </Project>
