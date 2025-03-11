@@ -29,7 +29,9 @@
    </ItemGroup>
 
    <ItemGroup>
+      <PackageReference Include="Microsoft.SourceLink.GitHub"/>
       <PackageReference Include="Moq"/>
+      <PackageReference Include="NodaTime"/>
    </ItemGroup>
 
 </Project>

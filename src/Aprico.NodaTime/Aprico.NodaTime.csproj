@@ -29,6 +29,7 @@
    </ItemGroup>
 
    <ItemGroup>
+      <PackageReference Include="Microsoft.SourceLink.GitHub"/>
       <PackageReference Include="NodaTime"/>
    </ItemGroup>
 
